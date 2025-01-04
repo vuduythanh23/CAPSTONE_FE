@@ -1,3 +1,5 @@
+import tailwindScrollbarHide from "tailwind-scrollbar-hide";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,15 +13,7 @@ export default {
       }
     },
   },
-  plugins: [require("tailwind-scrollbar-hide"),],
+  plugins: [tailwindScrollbarHide],
+  
 }
 
-// module.exports = {
-//   content: [
-//     "./src/**/*.{js,jsx,ts,tsx}",
-//     "./node_modules/flowbite/**/*.js"
-//   ],
-//   plugins: [
-//     require('flowbite/plugin')
-//   ],
-// };
